@@ -37,8 +37,8 @@ for i in range(0,12):
     plt.annotate(low[i], (i+1,low[i]))
     
 month = range(1,13)  
-plt.plot(month,high,label="Highest",color="orange")
-plt.plot(month,low,label="Lowest",color="blue")
+plt.plot(month,high,label="Highest",color="red")
+plt.plot(month,low,label="Lowest",color="green")
 plt.xlabel("month")
 plt.ylabel("price")
 plt.legend(loc='best')

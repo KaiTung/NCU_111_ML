@@ -18,15 +18,15 @@ Generated_Matrix = {
 G_M = DataFrame(Generated_Matrix)
 
 print(G_M)
-print('-------------------------')
+print('-'*40)
 print("Problem 1:")
 print(G_M[G_M['Money'] == G_M['Money'].min()])
 
-print('-------------------------')
+print('-'*40)
 print("Problem 2:")
 print(G_M[ G_M['Money'] >= 1010 ])
 
-print('-------------------------')
+print('-'*40)
 print("Problem 3:")
 print(G_M[ G_M['Money'] >= 1010 ].sort_values('Money',ascending=False))
 
